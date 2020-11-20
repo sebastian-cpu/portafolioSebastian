@@ -1,0 +1,81 @@
+
+#centrador{
+    position: relative;
+    width: 320px;
+    height: 370px;
+}
+#imagen{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:10px solid #666;
+}
+#primary{
+}
+.card border-dark mb-5{
+    background-color: lightblue;
+    height: 100px;
+    left: 50px;
+    position: relative;
+    top: 50px;
+    width: 150px;
+}
+#imagen1{
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 310px;
+    width: 200px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+#imagenR{
+    height: 270px;
+    width: 270px;
+
+}
+#nombreCompleto{
+    font-weight: bold;
+
+}
+/* ------------------------- */
+/* Footer */
+/* ------------------------- */
+footer .redes-sociales {
+    display: flex;
+    position: relative;
+	align-content:  center;;
+	justify-content: center;
+    padding: 20px;
+    top:47px;
+	flex-wrap: wrap;
+}
+
+footer .redes-sociales a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: #000;
+	color: #fff;
+	margin: 20px;
+	text-align: center;
+	border-radius: 300px;
+	transition: .3s ease all;
+}
+
+footer .redes-sociales .twitter {background: #1da1f2;}
+footer .redes-sociales .facebook {background: #3b5998;}
+footer .redes-sociales .instagram {background: #c13584;}
+
+footer .redes-sociales a i {
+	font-size: 30px;
+	line-height: 60px;
+}
+
+footer .contenedor-icono:hover a {
+	animation: icono .5s ease;
+}
